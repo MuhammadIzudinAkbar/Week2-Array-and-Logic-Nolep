@@ -4,7 +4,7 @@ Diberikan sebuah function palindrome(kata) yang menerima satu parameter. Functio
 
 function palindrome(kata) {
   // you can only write your code here!
-  for(i = 0; i < kata.length/2; i++){
+  for(let i = 0; i < kata.length/2; i++){
 //console.log(`Cek: ${kata[i]} sama dengan ${kata[kata.length - 1 - i]}`)
     if(kata[i] !== kata[kata.length-1-i]){
       return false

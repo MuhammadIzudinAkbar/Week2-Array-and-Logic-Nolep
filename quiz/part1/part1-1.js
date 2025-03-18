@@ -12,6 +12,9 @@ let input = [
 
 
 for(i = 0; i < input.length; i++){
+  if(i == 0||1 || 2 || 3){
+    console.log(' ')
+  }
   for(j = 0; j < input[i].length; j++){
     if(j === 0 ){
       console.log(`Nomor id: ${input[i][j]}`)
